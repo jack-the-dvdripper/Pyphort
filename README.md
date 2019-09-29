@@ -1,2 +1,6 @@
 # Pyphort
-Python Photo Sort
+* Python Photo Sort
+* YYYY/MM/DD photo album
+## Requirements
+* exif
+
