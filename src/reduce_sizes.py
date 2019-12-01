@@ -42,4 +42,4 @@ else:
 
 
 for filename in sorted(filenames):
-    subprocess.call(['jpegoptim',"-m " + str(quality) ,'-p', '--all-progressive' ,'-d', str(outputdir), str(filename)])
+    subprocess.call(['jpegoptim','-m ' + str(quality) ,'-p', '--all-progressive' ,'-d', str(outputdir), str(filename)])

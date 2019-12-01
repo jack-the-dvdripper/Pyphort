@@ -4,7 +4,7 @@ import sys
 import subprocess
 
 usage='''
-Usage: reduce.py [input dir] [output dir] 
+Usage: resize.py [input dir] [output dir] 
 '''
 
 try:
