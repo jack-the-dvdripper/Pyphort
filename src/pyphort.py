@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 """ small python utility to sort pictures into albums
 YYYY/MM/DD like 2019/07/06 based on exif metadata

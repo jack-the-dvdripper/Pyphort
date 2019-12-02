@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 import os
 import sys
 import subprocess
@@ -39,7 +39,7 @@ for pic in files:
     # create commmand
     command='convert'
     options= ' '.join([
-        '-resize', '75%',
+        '-resize', '1920x1080',
         pic, output
         ])
     process=(' '.join([command,options]))
